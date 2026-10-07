@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/fonts/static/Inter-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/fonts/static/Inter-SemiBold.ttf");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/fonts/static/Inter-Bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+/* Seletor Global * = Serve para selecionar todos os elementos */
+/* Reset de estilos padrões do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #1A1118;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+
+    display: grid;
+    place-items: center;
+}
+
+section {
+    background-color: #2B1B27;
+    width: 100%;
+    max-width: 320px;
+    border-radius: 16px;
+    padding: 24px;
+
+    text-align: center;
+}
+
+img {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+
+h1 {
+    color: #FFF1F7;
+    margin-top: 28px;
+    font-size: 24px;
+}
+
+h2 {
+    color: #F5A3C7;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 28px;
+}
+
+p {
+    color: #D7B9C9;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+li {
+    margin-bottom: 16px;
+}
+
+li:last-child {
+    margin-bottom: 0;
+}
+
+a {
+    background-color: #462B3D;
+    color: #FFF1F7;
+    font-weight: 600;
+
+    display: inline-block;
+    width: 100%;
+    border-radius: 8px;
+
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+a:hover {
+    background-color: #F5A3C7;
+
+    color: #1A1118;
+}
